@@ -1,19 +1,19 @@
 # Sharp X1 ROM Board
 
-##Whats?
+## Whats?
 Sharp X1 PC (CZ-800 series) add-in ROM board as [CZ-8RB01](https://www.google.co.jp/search?q=CZ-8RB01) clone.
 
 Of course, "I think" that programs other than HuBASIC can also be started.
 
 
-##Schematic
+## Schematic
 
 ![schematic](images/schematic.png)
 
 [BasicRom_rev0c.pdf](BasicRom_rev0c.pdf)
 
 
-##BOM
+## BOM
 
 | REFERENCE | PARTS | QTY | Digikey P/N |
 |:-----------:|:------------:|:------------:|:------------:|
@@ -28,7 +28,7 @@ Of course, "I think" that programs other than HuBASIC can also be started.
 
 Note: AT27C512R-45PU is OTP (one-time programmable) ROM.
 
-##PCB
+## PCB
 
 TOP
 
@@ -39,21 +39,21 @@ BOTTOM
 ![bottom](images/pcb2.png)
 
 
-##Correction of PCB
+## Correction of PCB
 
 Bottom side, cut "RESET" signal.
 
 ![correct](images/cut.png)
 
 
-##Address decoder simulation
+## Address decoder simulation
 
 Attached Tina simulation file.
 
 ![simulation](images/simulation.png)
 
 
-##Design Environment
+## Design Environment
 DipTrace 3.0.0.2  (<http://diptrace.com/>)
 
 TINA11 Industrial  (<https://www.tina.com/>)
